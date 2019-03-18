@@ -4,9 +4,14 @@
 
 This repository hosts all the files for my tutorial on building a live cam with your Raspberry Pi.
 
-There's also a camera benching script `benchcamera.py` that was used during testing (640x480 10fps jpeg 100 quality!)
+- Flask Web App: `app.py`
+- Raspberry Pi Script: `camera.py`
 
-The web app is built with Flask and the Raspberry Pi script is written in Python 3 using the `picamera` module.
+<br>
+
+There's also a camera benching script `benchcamera.py` that was used during testing.
+
+- 7.5fps at 720p - JPEG 100 quality.
 
 <br>
 
