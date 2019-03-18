@@ -6,9 +6,13 @@ This repository hosts all the files for my tutorial on building a live cam with 
 
 The web app is built with Flask and the Raspberry Pi script is written in Python using the `picamera` module.
 
+<br>
+
 ### Install
 
-#### Server
+<br>
+
+**Server**
 
 `pip install -r requirements.txt`
 
@@ -16,7 +20,9 @@ The web app is built with Flask and the Raspberry Pi script is written in Python
 
 `FLASK_APP=app.py flask run`
 
-#### Raspberry Pi
+<br>
+
+**Raspberry Pi**
 
 No `requirements.txt` as it may depend on your distro.
 
