@@ -8,11 +8,7 @@ The web app is built with Flask and the Raspberry Pi script is written in Python
 
 <br>
 
-### Install/Running
-
-<br>
-
-**Server**
+#### Web App
 
 Install dependencies `pip install -r requirements.txt`. Set the password for the image upload route `PASSWORD='123'`.
 
@@ -20,7 +16,7 @@ Test the app locally with `FLASK_APP=app.py flask run`. See the Flask [docs](htt
 
 <br>
 
-**Raspberry Pi**
+#### Raspberry Pi
 
 No `requirements.txt` as it may depend on your distro - although, this should be bulletproof. Install dependencies `pip install picamera requests`. Edit the `url` variable in `camera.py` to your Flask app's address/port.
 
