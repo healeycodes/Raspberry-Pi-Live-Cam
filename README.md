@@ -8,7 +8,7 @@ The web app is built with Flask and the Raspberry Pi script is written in Python
 
 <br>
 
-### Install
+### Install/Running
 
 <br>
 
