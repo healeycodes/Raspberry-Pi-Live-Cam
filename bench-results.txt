@@ -1,0 +1,18 @@
+Results from benchcamera.py, pictures taken and stored in io.BytesIO() per second.
+
+Format:
+#  resolution
+#  images per second.
+
+================== RESTART: /home/pi/Desktop/camera_test.py ==================
+(1920, 1080)
+0.19679911613464354
+(1280, 720)
+0.13932397365570068
+(800, 600)
+0.11522645473480225
+(640, 480)
+0.09392396926879883
+(320, 240)
+0.08415886402130127
+>>>
