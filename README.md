@@ -4,7 +4,7 @@
 
 This repository hosts all the files for my tutorial on building a live cam with your Raspberry Pi.
 
-The web app is built with Flask and the Raspberry Pi script is written in Python using the `picamera` module.
+The web app is built with Flask and the Raspberry Pi script is written in Python 3 using the `picamera` module.
 
 <br>
 
@@ -14,25 +14,17 @@ The web app is built with Flask and the Raspberry Pi script is written in Python
 
 **Server**
 
-`pip install -r requirements.txt`
+Install dependencies `pip install -r requirements.txt`. Set the password for the image upload route `PASSWORD='123'`.
 
-`PASSWORD='123'`
-
-`FLASK_APP=app.py flask run`
+Test the app locally with `FLASK_APP=app.py flask run`. See the Flask [docs](http://flask.pocoo.org/) for hosting on a web server.
 
 <br>
 
 **Raspberry Pi**
 
-No `requirements.txt` as it may depend on your distro.
+No `requirements.txt` as it may depend on your distro - although, this should be bulletproof. Install dependencies `pip install picamera requests`. Edit the `url` variable in `camera.py` to your Flask app's address/port. There's also some commented variables for adjusting resolution and capture rate (use `time.sleep` for highest accuracy). The Raspberry Pi side of things works fine in testing with Python 2.7 but was written for Python 3.
 
-`pip install requests`
-
-`pip install picamera`
-
-Edit the `url` variable in `camera.py` to your Flask app's address/port.
-
-`python camera.py`
+Run with `python camera.py`. 
 
 <br>
 
