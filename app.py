@@ -26,7 +26,7 @@ def init_db():
     db.close()
 
 
-# initialize db for every app instance - images aren't overwritten
+# initialize db for every app instance
 init_db()
 
 
@@ -57,7 +57,7 @@ def get_image():
 @app.route('/test')
 def test_image():
     return '''<img src="/live.jpeg" /><script>setInterval(() =>
-        document.querySelector(\'img\').src = \'/live.jpeg?\' + Math.random(), 150)</script>'''
+        document.querySelector(\'img\').src = \'/live.jpeg?\' + Date.now(), 150)</script>'''
 
 
 # close the database connection after every request ends
