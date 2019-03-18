@@ -22,7 +22,11 @@ Test the app locally with `FLASK_APP=app.py flask run`. See the Flask [docs](htt
 
 **Raspberry Pi**
 
-No `requirements.txt` as it may depend on your distro - although, this should be bulletproof. Install dependencies `pip install picamera requests`. Edit the `url` variable in `camera.py` to your Flask app's address/port. There's also some commented variables for adjusting resolution and capture rate (use `time.sleep` for highest accuracy). The Raspberry Pi side of things works fine in testing with Python 2.7 but was written for Python 3.
+No `requirements.txt` as it may depend on your distro - although, this should be bulletproof. Install dependencies `pip install picamera requests`. Edit the `url` variable in `camera.py` to your Flask app's address/port.
+
+There are also some commented variables for adjusting resolution and capture rate (use `time.sleep` for highest accuracy).
+
+The Raspberry Pi side of things works fine in testing with Python 2.7 but was written for Python 3.
 
 Run with `python camera.py`. 
 
