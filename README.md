@@ -40,6 +40,7 @@ Run with `python camera.py`.
 Some thoughts to improve the project but make it a worse tutorial.
 
 - Upload images via WebSocket (save bandwidth and latency).
+- Use a safe compare function for password checking to avoid timing attacks.
 - Serve images to clients over WebSocket as they arrive (same as above).
 - Use Flask for uploading images, serve images as a static file via HTTP server (scales infinitely).
 - When receiving images, scale them to different resolutions (e.g., `/live800x600.jpeg`).
