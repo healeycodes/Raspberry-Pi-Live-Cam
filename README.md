@@ -2,7 +2,7 @@
 
 ![My Pi!](https://github.com/healeycodes/Raspberry-Pi-Live-Cam/blob/master/my-pi-320.png)
 
-This repository hosts all the files for my coding [tutorial](https://healeycodes.github.io/python/raspberrypi/beginners/webdev/2019/03/15/raspberry-pi-live-cam.html) on building a live cam with your Raspberry Pi.
+This repository hosts all the files for my coding [tutorial](https://healeycodes.com/python/raspberrypi/beginners/webdev/2019/03/18/raspberry-pi-live-cam.html) on building a live cam with your Raspberry Pi.
 
 - Flask Web App: `app.py`
 - Raspberry Pi Script: `camera.py`
